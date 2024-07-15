@@ -6,7 +6,6 @@
     }
     section#login {
         width: 90vw;
-        transition-duration: 0.3s;
     }
     section#login > div#imagem {
         float: left;
@@ -23,7 +22,7 @@
         background-image: linear-gradient(to left, #49a09d, #5f2c82);
     }
     section#login {
-        transition-duration: 0.3s;
+        transition: width 0.3s, height 0.3s;
         width: 990px;
     }
     section#login > div#imagem {
